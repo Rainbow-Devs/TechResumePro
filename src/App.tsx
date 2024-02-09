@@ -1,14 +1,17 @@
-import './App.css'
-import LoginPage from './features/auth/LoginPage'
-import UserProfilePage from './features/UserProfilePage/components/UserProfilePage'
+import "./App.css";
+import LoginPage from "./features/LoginPage/components/LoginPage";
+import { Route, Routes } from "react-router-dom";
+import UserProfilePage from "./features/UserProfilePage/components/UserProfilePage";
 
 function App() {
   return (
-    <>
-     <LoginPage />
-     <UserProfilePage />
-    </>
-  )
+    <div>
+      <Routes>
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/" element={<UserProfilePage />} />
+      </Routes>
+    </div>
+  );
 }
 
-export default App
+export default App;
