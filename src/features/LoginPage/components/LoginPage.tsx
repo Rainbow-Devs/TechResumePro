@@ -11,48 +11,21 @@ import InputAdornment from '@mui/material/InputAdornment';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import CircularProgress from '@mui/material/CircularProgress';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import "../../index.css";
+import { ThemeProvider } from '@mui/material/styles';
+import { useLoginPage } from "../hooks/useLoginPage";
+import { FormValues } from "../types/LoginFormTypes";
+import { theme } from "../../Theme/theme";
 
-// Define the theme according to the style guide
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#003366', // Navy Blue
-    },
-    secondary: {
-      main: '#87CEEB', // Sky Blue
-    },
-    background: {
-      default: '#F2F2F2', // Light Gray
-    },
-    text: {
-      primary: '#333333', // Dark Gray
-      secondary: '#666666', // Medium Gray
-    },
-  },
-  typography: {
-    fontFamily: [
-      'Roboto', 'Open Sans', '"Helvetica Neue"', 'Arial', 'sans-serif'
-    ].join(','),
-  },
-});
 
 const LoginPage = () => {
-  const { register, handleSubmit, formState: { errors } } = useForm();
-  const [showPassword, setShowPassword] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<FormValues>();
 
-
-  const onSubmit = async data => {
-    await sleep(2000);
-    console.log(JSON.stringify(data));
-  };
-
-  const togglePasswordVisibility = () => {
-    setShowPassword(!showPassword);
-  };
+  const { showPassword, togglePasswordVisibility, onSubmit, loading } =
+    useLoginPage();
 
   return (
     <ThemeProvider theme={theme}>
