@@ -2,7 +2,7 @@ import { useState, ChangeEvent } from 'react';
 import { Container, Typography, Avatar, Grid, TextField, Button } from '@mui/material';
 
 interface UserProfilePageProps {
-  userId: string; // replace with actual user id
+  userId?: string; // replace with actual user id
 }
 
 interface UserProfile {
