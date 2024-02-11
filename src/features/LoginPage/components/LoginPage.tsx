@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -34,7 +33,6 @@ const LoginPage = () => {
         justifyContent="center"
         alignItems="center"
         minHeight="100vh"
-<<<<<<< HEAD
         sx={{ bgcolor: "background.default" }}
       >
         <Card sx={{ minWidth: 275, bgcolor: "background.paper" }}>
@@ -43,12 +41,6 @@ const LoginPage = () => {
             subheader="Please login to continue."
             sx={{ color: "text.primary" }}
           />
-=======
-        sx={{ bgcolor: 'background.default' }}
-      >
-        <Card sx={{ minWidth: 275, bgcolor: 'background.paper' }}>
-          <CardHeader title="Tech Resume Pro" subheader="Please login to continue." sx={{ color: 'text.primary' }} />
->>>>>>> 4f24561 (Co-authored-by: Abigail Dawson <AbigailDawson@users.noreply.github.com>)
           <CardContent>
             <form onSubmit={handleSubmit(onSubmit)}>
               <TextField
