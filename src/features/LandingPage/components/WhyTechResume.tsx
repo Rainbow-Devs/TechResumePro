@@ -22,9 +22,9 @@ const WhyTechResume = () => {
       image: '/resume4.jpeg',
       primaryText: 'AI Powered tools that help you write better',
       secondaryText: 'Don&apos;t know where to start? Our AI powered tools will help you write smarter, better, and faster.',
-    },
-
-]
+    
+    }
+    ];
   return (
     <WhyTechResumeContainer>
       <Headline>What you can do with TechResume</Headline>
