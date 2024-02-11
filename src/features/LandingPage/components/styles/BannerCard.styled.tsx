@@ -37,7 +37,7 @@ export const ButtonGroup = styled.div`
 
 export const Button = styled.button<{ variant?: 'signIn' | 'signUp' }>`
   font-weight: bold;
-  padding:1rem 2rem;
+  padding:.75rem 1.5rem;
   color: ${({ variant }) => (variant === 'signIn' ? 'white' : 'black')};
   border: none;
   cursor: pointer;

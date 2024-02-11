@@ -1,5 +1,6 @@
-import React from 'react';
 import { BannerImage, BannerHeadline, BannerDescription, Button, ButtonGroup } from './styles/BannerCard.styled';
+
+//Photo by <a href="https://unsplash.com/@codioful?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Codioful (Formerly Gradienta)</a> on <a href="https://unsplash.com/photos/pink-and-blue-color-illustration-ix_kUDzCczo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 const BannerCard = () => {
   return (
