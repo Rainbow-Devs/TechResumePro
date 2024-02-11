@@ -3,10 +3,10 @@ import styled from 'styled-components';
 
 // Define BannerImage styled component
 export const BannerImage = styled.div<{ backgroundImage: string }>`
-  width: 70%;
+  max-width: 70%;
   height: 350px;
   border-radius: 10px;
-  margin: 1rem auto;
+  margin: 2rem auto;
   background-image: url(${props => props.backgroundImage});
   background-size: cover;
   background-position: center;
@@ -14,7 +14,6 @@ export const BannerImage = styled.div<{ backgroundImage: string }>`
   flex-direction: column;
   justify-content: flex-end;
   text-align: left;
-  padding: 2rem;
 `;
 
 // Define additional styled components for the headline and description
@@ -22,17 +21,20 @@ export const BannerHeadline = styled.h1`
   color: #fff;
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif;
+  padding: 2rem;
 `;
 
 export const BannerDescription = styled.p`
   color: #fff;
   margin-bottom: 20px; // Adjusted to provide space for ButtonGroup
   font-family: 'Roboto', sans-serif;
+  padding: 0 2rem;
 `;
 
 export const ButtonGroup = styled.div`
   display: flex;
   gap: 10px; // Adds a gap between buttons
+  padding: 1rem 2rem;
 `;
 
 export const Button = styled.button<{ variant?: 'signIn' | 'signUp' }>`
