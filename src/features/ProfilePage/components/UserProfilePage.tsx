@@ -1,44 +1,14 @@
-import { useState, ChangeEvent } from 'react';
 import { Container, Typography, Avatar, Grid, TextField, Button } from '@mui/material';
+import { useProfilePage } from '../hooks/useProfilePage';
 
 interface UserProfilePageProps {
   userId?: string; // replace with actual user id
 }
 
-interface UserProfile {
-  name: string;
-  email: string;
-  profilePicture: string | null;
-  headline: string;
-  bio: string;
-}
-
 const UserProfilePage = ({ userId }: UserProfilePageProps) => {
-  // placeholder user info, replace after connecting w/ backend
-  const [user, setUser] = useState<UserProfile>({
-    name: 'Abigail Dawson',
-    email: 'abigaildawson.dev@gmail.com',
-    profilePicture: null,
-    headline: 'Software Engineer',
-    bio: 'Passionate about education and languages, and excited about making a positive impact on others through high quality software solutions.'
-  });
 
-  const [editMode, setEditMode] = useState(false);
-
-  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = event.target;
-    setUser((prevUser) => ({
-      ...prevUser,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = (event: React.FormEvent) => {
-    event.preventDefault();
-    // Add logic to save changes to the backend
-    setEditMode(false);
-  };
-
+  const { user, handleChange, handleSubmit, editMode, setEditMode } = useProfilePage();
+  
   return (
     <Container maxWidth="md">
       <Grid container spacing={2}>
