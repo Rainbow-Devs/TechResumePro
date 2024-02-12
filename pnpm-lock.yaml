@@ -11,15 +11,12 @@ dependencies:
   '@emotion/styled':
     specifier: ^11.11.0
     version: 11.11.0(@emotion/react@11.11.3)(@types/react@18.2.43)(react@18.2.0)
-<<<<<<< HEAD
-=======
   '@fortawesome/free-solid-svg-icons':
     specifier: ^6.5.1
     version: 6.5.1
   '@fortawesome/react-fontawesome':
     specifier: ^0.2.0
     version: 0.2.0(@fortawesome/fontawesome-svg-core@6.5.1)(react@18.2.0)
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
   '@mui/icons-material':
     specifier: ^5.15.8
     version: 5.15.9(@mui/material@5.15.9)(@types/react@18.2.43)(react@18.2.0)
@@ -29,12 +26,9 @@ dependencies:
   '@reduxjs/toolkit':
     specifier: ^2.1.0
     version: 2.1.0(react-redux@9.1.0)(react@18.2.0)
-<<<<<<< HEAD
-=======
   '@types/material-ui':
     specifier: ^0.21.16
     version: 0.21.16
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
   '@types/react-redux':
     specifier: ^7.1.33
     version: 7.1.33
@@ -59,15 +53,12 @@ dependencies:
   redux-thunk:
     specifier: ^3.1.0
     version: 3.1.0(redux@5.0.1)
-<<<<<<< HEAD
-  tss-react:
-    specifier: ^4.9.4
-    version: 4.9.4(@emotion/react@11.11.3)(@mui/material@5.15.9)(react@18.2.0)
-=======
   styled-components:
     specifier: ^6.1.8
     version: 6.1.8(react-dom@18.2.0)(react@18.2.0)
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
+  tss-react:
+    specifier: ^4.9.4
+    version: 4.9.4(@emotion/react@11.11.3)(@mui/material@5.15.9)(react@18.2.0)
 
 devDependencies:
   '@types/react':
@@ -429,13 +420,10 @@ packages:
       react: 18.2.0
     dev: false
 
-<<<<<<< HEAD
-=======
   /@emotion/unitless@0.8.0:
     resolution: {integrity: sha512-VINS5vEYAscRl2ZUDiT3uMPlrFQupiKgHz5AA4bCH1miKBg4qtwkim1qPmJj/4WG6TreYMY111rEFsjupcOKHw==}
     dev: false
 
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
   /@emotion/unitless@0.8.1:
     resolution: {integrity: sha512-KOEGMu6dmJZtpadb476IsZBclKvILjopjUii3V+7MnXIQCYh8W3NgNcgwo21n9LXZX6EDIKvqfjYxXebDwxKmQ==}
     dev: false
@@ -706,13 +694,8 @@ packages:
       '@floating-ui/utils': 0.2.1
     dev: false
 
-<<<<<<< HEAD
-  /@floating-ui/dom@1.6.1:
-    resolution: {integrity: sha512-iA8qE43/H5iGozC3W0YSnVSW42Vh522yyM1gj+BqRwVsTNOyr231PsXDaV04yT39PsO0QL2QpbI/M0ZaLUQgRQ==}
-=======
   /@floating-ui/dom@1.6.2:
     resolution: {integrity: sha512-xymkSSowKdGqo0SRr2Mp4czH5A8o2Pum35PAD0ftb3gCcPacWzwhvtUeUqmVXm9EVtm2hThD/lRrFNcahMOaSQ==}
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
     dependencies:
       '@floating-ui/core': 1.6.0
       '@floating-ui/utils': 0.2.1
@@ -724,11 +707,7 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
-<<<<<<< HEAD
-      '@floating-ui/dom': 1.6.1
-=======
       '@floating-ui/dom': 1.6.2
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
@@ -737,8 +716,6 @@ packages:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
     dev: false
 
-<<<<<<< HEAD
-=======
   /@fortawesome/fontawesome-common-types@6.5.1:
     resolution: {integrity: sha512-GkWzv+L6d2bI5f/Vk6ikJ9xtl7dfXtoRu3YGE6nq0p/FFqA1ebMOAWg3XgRyb0I6LYyYkiAo+3/KrwuBp8xG7A==}
     engines: {node: '>=6'}
@@ -772,7 +749,6 @@ packages:
       react: 18.2.0
     dev: false
 
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
   /@humanwhocodes/config-array@0.11.14:
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
@@ -1204,8 +1180,6 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-<<<<<<< HEAD
-=======
   /@types/material-ui@0.21.16:
     resolution: {integrity: sha512-US8P5IsLguspYFDtkG4097KZDyqz/GqBm0uftcZ2h2fTzyzLqJuFk8BliEQ9VS3EviRDJaB6l29gps3hkCTm7Q==}
     dependencies:
@@ -1213,15 +1187,12 @@ packages:
       '@types/react-addons-linked-state-mixin': 0.14.27
     dev: false
 
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
   /@types/parse-json@4.0.2:
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
     dev: false
 
   /@types/prop-types@15.7.11:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
-<<<<<<< HEAD
-=======
 
   /@types/react-addons-linked-state-mixin@0.14.27:
     resolution: {integrity: sha512-yVxzQcKDiq32uziGQ/ka586qSFxz2ePYZ3dTCp4JHJKk/E6M0LP0R28ft3oFAnTGJRFBAB3if3pkP8w57Y04IA==}
@@ -1229,7 +1200,6 @@ packages:
       '@types/create-react-class': 15.6.7
       '@types/react': 18.2.43
     dev: false
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
 
   /@types/react-dom@18.2.17:
     resolution: {integrity: sha512-rvrT/M7Df5eykWFxn6MYt5Pem/Dbyc1N8Y0S9Mrkw2WFCRiqUgw9P7ul2NpwsXCSM1DVdENzdG9J5SreqfAIWg==}
@@ -1266,13 +1236,10 @@ packages:
     resolution: {integrity: sha512-dn1l8LaMea/IjDoHNd9J52uBbInB796CDffS6VdIxvqYCPSG0V0DzHp76GpaWnlhg88uYyPbXCDIowa86ybd5A==}
     dev: true
 
-<<<<<<< HEAD
-=======
   /@types/stylis@4.2.0:
     resolution: {integrity: sha512-n4sx2bqL0mW1tvDf/loQ+aMX7GQD3lc3fkCMC55VFNDu/vBOabO+LTIeXKM14xK0ppk5TUGcWRjiSpIlUpghKw==}
     dev: false
 
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
   /@types/use-sync-external-store@0.0.3:
     resolution: {integrity: sha512-EwmlvuaxPNej9+T4v5AuBPJa2x2UOJVdjCtDHgcDqitUeOtjnJKJ+apYjVcAoBEMjKW1VVFGZLUb5+qqa09XFA==}
     dev: false
@@ -1519,13 +1486,10 @@ packages:
   /callsites@3.1.0:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
-<<<<<<< HEAD
-=======
 
   /camelize@1.0.1:
     resolution: {integrity: sha512-dU+Tx2fsypxTgtLoE36npi3UqcjSSMNYfkqgmoEhtZrraP5VWq0K7FkWVTYa8eMPtnU/G2txVsfdCJTn9uzpuQ==}
     dev: false
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
 
   /caniuse-lite@1.0.30001581:
     resolution: {integrity: sha512-whlTkwhqV2tUmP3oYhtNfaWGYHDdS3JYFQBKXxcUR9qqPWsRhFHhoISO2Xnl/g0xyKzht9mI1LZpiNWfMzHixQ==}
@@ -1975,13 +1939,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-<<<<<<< HEAD
-  /hasown@2.0.0:
-    resolution: {integrity: sha512-vUptKVTpIJhcczKBbgnS+RtcuYMB8+oNzPK2/Hp3hanz8JmpATdmmgLgSaadVREkDm+e2giHwY3ZRkyjSIDDFA==}
-=======
   /hasown@2.0.1:
     resolution: {integrity: sha512-1/th4MHjnwncwXsIW6QMzlvYL9kG5e/CpVvLRZe4XPa8TOUNbCELqmvhDmnkNsAjwaG4+I8gJJL0JBvTTLO9qA==}
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
     engines: {node: '>= 0.4'}
     dependencies:
       function-bind: 1.1.2
@@ -2032,11 +1991,7 @@ packages:
   /is-core-module@2.13.1:
     resolution: {integrity: sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==}
     dependencies:
-<<<<<<< HEAD
-      hasown: 2.0.0
-=======
       hasown: 2.0.1
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
     dev: false
 
   /is-extglob@2.1.1:
@@ -2543,11 +2498,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /source-map@0.5.7:
-    resolution: {integrity: sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ==}
-    engines: {node: '>=0.10.0'}
-    dev: false
-
   /strip-ansi@6.0.1:
     resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
     engines: {node: '>=8'}
@@ -2560,8 +2510,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-<<<<<<< HEAD
-=======
   /styled-components@6.1.8(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-PQ6Dn+QxlWyEGCKDS71NGsXoVLKfE1c3vApkvDYS5KAK+V8fNWGhbSUEo9Gg2iaID2tjLXegEW3bZDUGpofRWw==}
     engines: {node: '>= 16'}
@@ -2582,18 +2530,14 @@ packages:
       tslib: 2.5.0
     dev: false
 
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
   /stylis@4.2.0:
     resolution: {integrity: sha512-Orov6g6BB1sDfYgzWfTHDOxamtX1bE/zo104Dh9e6fqJ3PooipYyfJ0pUmrZO2wAvO8YbEyeFrkV91XTsGMSrw==}
     dev: false
 
-<<<<<<< HEAD
-=======
   /stylis@4.3.1:
     resolution: {integrity: sha512-EQepAV+wMsIaGVGX1RECzgrcqRRU/0sYOHkeLsZ3fzHaHXZy4DaOOX0vOlGQdlsjkh3mFHAIlVimpwAs4dslyQ==}
     dev: false
 
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
   /supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
     engines: {node: '>=4'}
@@ -2636,7 +2580,10 @@ packages:
       typescript: 5.2.2
     dev: true
 
-<<<<<<< HEAD
+  /tslib@2.5.0:
+    resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
+    dev: false
+
   /tss-react@4.9.4(@emotion/react@11.11.3)(@mui/material@5.15.9)(react@18.2.0):
     resolution: {integrity: sha512-4o+XFdaTcraNEIsCRxKiEX7g6xhcsdSxfHRjos3Kg9GbYIpzfK4M2MHMETTuXT54nUrldtnkipNC003v/q5KVg==}
     peerDependencies:
@@ -2656,10 +2603,6 @@ packages:
       '@emotion/utils': 1.2.1
       '@mui/material': 5.15.9(@emotion/react@11.11.3)(@emotion/styled@11.11.0)(@types/react@18.2.43)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
-=======
-  /tslib@2.5.0:
-    resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
->>>>>>> 59973ca (Add LandingPage component and Navigation component)
     dev: false
 
   /type-check@0.4.0:
