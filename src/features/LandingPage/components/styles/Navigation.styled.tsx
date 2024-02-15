@@ -1,13 +1,6 @@
 // Navigation.styled.tsx
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { createGlobalStyle } from 'styled-components';
-
-export const GlobalStyle = createGlobalStyle`
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
-`;
 
 export const Nav = styled.nav`
   margin: 0;
@@ -18,6 +11,7 @@ export const Nav = styled.nav`
   align-items: center;
   padding: 0 1rem;
   font-family: 'Roboto', sans-serif;
+
 
   img {
     width: 30px;
