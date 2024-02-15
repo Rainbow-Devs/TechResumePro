@@ -7,11 +7,9 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/profile" element={<UserProfilePage />} />
         <Route path="/" element={<LandingPage />} />
-        <Route path="/" element={<UserProfilePage />} />
       </Routes>
     </div>
   );
