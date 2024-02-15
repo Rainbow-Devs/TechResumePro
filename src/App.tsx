@@ -1,7 +1,10 @@
 import "./App.css";
-import LoginPage from "./features/LoginPage/components/LoginPage";
-import { Route, Routes } from "react-router-dom";
-import UserProfilePage from "./features/ProfilePage/components/UserProfilePage";
+
+import { Route, Routes } from 'react-router-dom';
+
+import LoginPage from './features/LoginPage/components/LoginPage';
+import RegistrationPage from './features/RegistrationPage';
+import UserProfilePage from './features/ProfilePage/components/UserProfilePage';
 
 function App() {
   return (
@@ -9,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/profile" element={<UserProfilePage />} />
+        <Route path="/create-account" element={<RegistrationPage />} />
       </Routes>
     </div>
   );
