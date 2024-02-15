@@ -14,6 +14,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import { useLoginPage } from "../hooks/useLoginPage";
 import { FormValues } from "../types/LoginFormTypes";
 import { theme } from "../../Theme/theme";
+import Navigation from "../../LandingPage/components/Navigation";
 
 
 const LoginPage = () => {
@@ -28,6 +29,7 @@ const LoginPage = () => {
 
   return (
     <ThemeProvider theme={theme}>
+      <Navigation />
       <Box
         display="flex"
         justifyContent="center"
